@@ -37,7 +37,6 @@ namespace Platformer397
                 case InputActionPhase.Canceled:
                     //Debug.Log("Canceled");
                     Move?.Invoke(context.ReadValue<Vector2>());
-
                     break;
                 default:
                     Debug.Log("Not input handled");
